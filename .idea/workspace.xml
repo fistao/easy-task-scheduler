@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a87f601e-a3e6-46d1-8618-1132ec93b286" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ets-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ets-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/controller/SchedulerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/impl/TimerScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ets-admin/src/main/resources/templates/scheduler.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ets-admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,17 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ets-admin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +39,9 @@
         <option value="$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/Application.java" />
         <option value="$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/impl/CronTrigger.java" />
         <option value="$PROJECT_DIR$/ets-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/impl/TimerScheduler.java" />
+        <option value="$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/controller/SchedulerController.java" />
+        <option value="$PROJECT_DIR$/ets-admin/src/main/resources/templates/scheduler.html" />
       </list>
     </option>
   </component>
@@ -85,82 +80,6 @@
               <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
               <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy-task-scheduler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy-task-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="ets-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +99,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552555034594" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552558295081" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="E:/software/nodejs/node" />
@@ -253,16 +172,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552444618984</updated>
-      <workItem from="1552444622163" duration="8279000" />
+      <workItem from="1552444622163" duration="11716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8279000" />
+    <option name="totallyTimeSpent" value="11716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
@@ -270,7 +188,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19839573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23636363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -304,56 +222,12 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/db/impl/MySqlJobPersistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/Scheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/distribute/Distribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/db/JobPersistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/impl/CronTrigger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/Trigger.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -369,10 +243,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/distribute/Distribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/db/impl/MySqlJobPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/TimerTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="327" column="62" lean-forward="true" selection-start-line="327" selection-start-column="62" selection-end-line="327" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/service/impl/TimerScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="30" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/db/JobPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/resources/templates/scheduler.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ets-admin/src/main/java/com/easy/task/scheduler/controller/SchedulerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ets-admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="584">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
