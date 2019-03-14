@@ -1,9 +1,9 @@
 /**
  * Copyright (C), 2011-2019, 微贷网.
  */
-package com.easy.task.db.impl;
+package com.easy.task.scheduler.db.impl;
 
-import com.easy.task.db.JobPersistence;
+import com.easy.task.scheduler.db.JobPersistence;
 
 /**
  * use mysql to store job information

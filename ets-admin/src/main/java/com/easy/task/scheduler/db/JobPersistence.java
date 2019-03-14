@@ -1,7 +1,7 @@
 /**
  * Copyright (C), 2011-2019, 微贷网.
  */
-package com.easy.task.db;
+package com.easy.task.scheduler.db;
 
 /**
  * Store job information
