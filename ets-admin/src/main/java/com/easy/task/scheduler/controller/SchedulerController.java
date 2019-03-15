@@ -3,7 +3,7 @@
  */
 package com.easy.task.scheduler.controller;
 
-import com.easy.task.scheduler.service.impl.TimerScheduler;
+import com.easy.task.scheduler.service.impl.TimerSchedulerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -18,11 +18,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SchedulerController {
 
     @Autowired
-    private TimerScheduler timerScheduler;
+    private TimerSchedulerService timerSchedulerService;
 
     @GetMapping("/run")
     public String helloScheduler(Model model) {
-        timerScheduler.schedule();
+        timerSchedulerService.schedule();
         model.addAttribute("result","Hello Easy-Task-Scheduler");
         return "scheduler";
     }

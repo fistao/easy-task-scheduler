@@ -6,7 +6,7 @@ package com.easy.task.scheduler.service;
 /**
  * @author jony 2019/3/14 - 14:59.
  */
-public interface Scheduler {
+public interface SchedulerService {
 
     /**
      * schedule main entrance

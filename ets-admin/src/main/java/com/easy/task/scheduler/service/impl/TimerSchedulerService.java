@@ -3,7 +3,7 @@
  */
 package com.easy.task.scheduler.service.impl;
 
-import com.easy.task.scheduler.service.Scheduler;
+import com.easy.task.scheduler.service.SchedulerService;
 import org.springframework.stereotype.Component;
 
 import java.util.Timer;
@@ -13,7 +13,7 @@ import java.util.TimerTask;
  * @author jony 2019/3/14 - 17:27.
  */
 @Component
-public class TimerScheduler implements Scheduler {
+public class TimerSchedulerService implements SchedulerService {
 
     @Override
     public void schedule() {
