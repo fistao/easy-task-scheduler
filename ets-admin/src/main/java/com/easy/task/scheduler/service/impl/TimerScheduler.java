@@ -6,7 +6,6 @@ package com.easy.task.scheduler.service.impl;
 import com.easy.task.scheduler.service.Scheduler;
 import org.springframework.stereotype.Component;
 
-import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -18,13 +17,15 @@ public class TimerScheduler implements Scheduler {
 
     @Override
     public void schedule() {
-        Timer timer = new Timer();
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
-
+                System.out.println("Hello Easy-Task-Scheduler");
             }
         };
-        timer.scheduleAtFixedRate(timerTask, new Date(),1000);
+        Timer timer = new Timer();
+        long delay = 0L;
+        long intevalPeriod = 1 * 1000;
+        timer.scheduleAtFixedRate(timerTask,delay,intevalPeriod);
     }
 }
