@@ -13,14 +13,14 @@ import java.util.TimerTask;
  * @author jony 2019/3/14 - 17:27.
  */
 @Component
-public class TimerSchedulerService implements SchedulerService {
+public class SchedulerServiceImpl implements SchedulerService {
 
     @Override
     public void schedule() {
         TimerTask timerTask = new TimerTask() {
             @Override
             public void run() {
-                System.out.println("Hello Easy-Task-Scheduler");
+                System.out.println("Hello ETS");
             }
         };
         Timer timer = new Timer();
